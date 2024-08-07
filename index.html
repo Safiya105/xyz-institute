@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ Institute</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #f8f8f8;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .featured-courses, .upcoming-events {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+        .course, .event {
+            flex-basis: 18%;
+            background-color: #f8f8f8;
+            padding: 10px;
+            text-align: center;
+        }
+        .testimonials {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 40px;
+        }
+        .testimonial {
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to XYZ Institute</h1>
+        <p>Empowering Students for a Brighter Future</p>
+        <button>Learn More</button>
+    </header>
+    
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Courses</a>
+        <a href="#">Events</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    
+    <div class="container">
+        <h2>Featured Courses</h2>
+        <div class="featured-courses">
+            <div class="course">Digital Marketing</div>
+            <div class="course">Web Development</div>
+            <div class="course">Data Science</div>
+            <div class="course">UI/UX Design</div>
+            <div class="course">Machine Learning</div>
+        </div>
+        
+        <h2>Upcoming Events</h2>
+        <div class="upcoming-events">
+            <div class="event">Workshop</div>
+            <div class="event">Seminar</div>
+            <div class="event">Hackathon</div>
+        </div>
+        
+        <h2>Hear from our awesome users!</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <img src="user1.jpg" alt="User 1">
+                <p>John Doe</p>
+                <p>⭐⭐⭐⭐⭐</p>
+            </div>
+            <div class="testimonial">
+                <img src="user2.jpg" alt="User 2">
+                <p>Jane Smith</p>
+                <p>⭐⭐⭐⭐⭐</p>
+            </div>
+            <div class="testimonial">
+                <img src="user3.jpg" alt="User 3">
+                <p>Bob Johnson</p>
+                <p>⭐⭐⭐⭐⭐</p>
+            </div>
+        </div>
+        
+        <h2>Contact Us</h2>
+        <button>Get in Touch</button>
+    </div>
+    
+    <footer>
+        <p>© XYZ Institute</p>
+        <p>Subscribe to our newsletter</p>
+        <input type="email" placeholder="Enter your email">
+        <button>Subscribe</button>
+    </footer>
+</body>
+</html>
